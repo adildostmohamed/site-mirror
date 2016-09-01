@@ -1,0 +1,15 @@
+{
+  "name": "mirroring",
+  "version": "1.0.0",
+  "description": "A small utility project to allow for easy cross browser testing in a synchronised fashion",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adil Dostmohamed",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.14.3",
+    "gulp": "^3.9.1"
+  }
+}

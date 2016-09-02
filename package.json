@@ -4,12 +4,15 @@
   "description": "A small utility project to allow for easy cross browser testing in a synchronised fashion",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "gulp prompt",
+    "mirror": "gulp prompt"
   },
   "author": "Adil Dostmohamed",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.14.3",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-prompt": "^0.2.0"
   }
 }
